@@ -28,7 +28,9 @@ export function TeamSelector({
             key={team.id}
             href={`${baseUrl}?${paramName}=${team.id}`}
             className={`text-white text-lg font-bold ${
-              activeTeam === team.id ? "text-white" : "text-gray-400"
+              activeTeam === team.id 
+                ? "text-white border-b-2 border-white pb-1" 
+                : "text-gray-400"
             }`}
           >
             {team.name}
@@ -38,7 +40,9 @@ export function TeamSelector({
             key={team.id}
             onClick={() => onSelect?.(team.id)}
             className={`text-white text-lg font-bold ${
-              activeTeam === team.id ? "text-white" : "text-gray-400"
+              activeTeam === team.id 
+                ? "text-white border-b-2 border-white pb-1" 
+                : "text-gray-400"
             }`}
           >
             {team.name}

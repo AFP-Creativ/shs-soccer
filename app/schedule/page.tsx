@@ -8,6 +8,8 @@ import { Header } from "@/components/Header"
 import { SectionHeader } from "@/components/SectionHeader"
 import { TeamSelector } from "@/components/TeamSelector"
 import { GameCard } from "@/components/GameCard"
+import { MinimalHeader } from "@/components/MinimalHeader"
+import { useScrollHeader } from "@/hooks/useScrollHeader"
 
 export default function SchedulePage({
   searchParams,
@@ -17,6 +19,9 @@ export default function SchedulePage({
   // Set default tab based on URL parameter or default to "varsityJv"
   const defaultTeam = searchParams.team || "varsityJv";
   const [activeTeam, setActiveTeam] = useState(defaultTeam);
+  
+  // Use the scroll header hook to determine when to show the minimal header
+  const showMinimalHeader = useScrollHeader(150);
   
   // Update active team when URL parameter changes
   useEffect(() => {
@@ -36,6 +41,17 @@ export default function SchedulePage({
 
   return (
     <PageContainer>
+      {/* Minimal header that appears when scrolling */}
+      <MinimalHeader 
+        activePage="schedule"
+        activeTeam={activeTeam}
+        teams={teams}
+        baseUrl="/schedule"
+        paramName="team"
+        isVisible={showMinimalHeader}
+      />
+      
+      {/* Regular header */}
       <Header activePage="schedule" />
       
       <SectionHeader title="2025 SEASON" />

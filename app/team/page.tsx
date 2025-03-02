@@ -8,6 +8,8 @@ import { Header } from "@/components/Header"
 import { SectionHeader } from "@/components/SectionHeader"
 import { TeamSelector } from "@/components/TeamSelector"
 import { PlayerCard } from "@/components/PlayerCard"
+import { MinimalHeader } from "@/components/MinimalHeader"
+import { useScrollHeader } from "@/hooks/useScrollHeader"
 
 export default function TeamPage({
   searchParams,
@@ -17,6 +19,9 @@ export default function TeamPage({
   // Set default roster based on URL parameter or default to "varsity"
   const defaultRoster = searchParams.roster || "varsity";
   const [activeRoster, setActiveRoster] = useState(defaultRoster);
+  
+  // Use the scroll header hook to determine when to show the minimal header
+  const showMinimalHeader = useScrollHeader(150);
   
   // Update active roster when URL parameter changes
   useEffect(() => {
@@ -39,6 +44,17 @@ export default function TeamPage({
 
   return (
     <PageContainer>
+      {/* Minimal header that appears when scrolling */}
+      <MinimalHeader 
+        activePage="team"
+        activeTeam={activeRoster}
+        teams={teams}
+        baseUrl="/team"
+        paramName="roster"
+        isVisible={showMinimalHeader}
+      />
+      
+      {/* Regular header */}
       <Header activePage="team" />
       
       <SectionHeader title="ROSTER" />
