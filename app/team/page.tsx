@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { ScrollArea } from "@/components/ui/scroll-area"
 import { playerData } from "@/lib/data"
 import { PageContainer } from "@/components/PageContainer"
 import { Header } from "@/components/Header"
@@ -21,7 +20,7 @@ export default function TeamPage({
   const [activeRoster, setActiveRoster] = useState(defaultRoster);
   
   // Use the scroll header hook to determine when to show the minimal header
-  const showMinimalHeader = useScrollHeader(150);
+  const showMinimalHeader = useScrollHeader(100);
   
   // Update active roster when URL parameter changes
   useEffect(() => {
@@ -68,14 +67,14 @@ export default function TeamPage({
         useLinks={false}
       />
 
-      {/* Player Cards */}
-      <ScrollArea className="w-full h-[calc(100vh-250px)] px-4">
+      {/* Player Cards - Now using regular div instead of ScrollArea */}
+      <div className="w-full px-4 pb-20">
         <div className="w-full max-w-xs mx-auto space-y-3 py-4">
           {currentRosterData.map((player, index) => (
             <PlayerCard key={index} player={player} />
           ))}
         </div>
-      </ScrollArea>
+      </div>
     </PageContainer>
   )
 }

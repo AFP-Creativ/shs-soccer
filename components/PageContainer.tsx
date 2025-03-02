@@ -6,7 +6,7 @@ type PageContainerProps = {
 
 export function PageContainer({ children }: PageContainerProps) {
   return (
-    <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-black to-[#ab2328]">
+    <main className="flex min-h-screen flex-col items-center bg-gradient-to-b from-black to-[#ab2328] overflow-auto">
       <div className="w-full max-w-md flex flex-col items-center p-4">
         {children}
       </div>

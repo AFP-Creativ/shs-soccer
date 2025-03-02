@@ -19,7 +19,7 @@ export function MinimalHeader({
   isVisible
 }: MinimalHeaderProps) {
   // Calculate the height of the header for the spacer
-  const headerHeight = 56; // in pixels, adjust as needed
+  const headerHeight = 64; // in pixels, adjusted to match actual header height
 
   return (
     <>
@@ -35,30 +35,18 @@ export function MinimalHeader({
         }`}
       >
         <div className="flex items-center justify-between px-4 py-2 max-w-screen-md mx-auto">
-          {/* Logo and Page Title */}
-          <div className="flex items-center">
-            <div className="relative w-12 h-12 flex-shrink-0 mr-2">
-              <div className="absolute inset-0 bg-red-600 rounded-full flex items-center justify-center overflow-hidden border-2 border-white">
-                <Image
-                  src="/SHS_Logo.png"
-                  alt="Springville Boys Soccer"
-                  width={40}
-                  height={40}
-                  className="w-8 h-8 object-contain"
-                />
-              </div>
+          {/* Logo as a link to home page */}
+          <Link href="/" className="relative w-12 h-12 flex-shrink-0">
+            <div className="absolute inset-0 bg-red-600 rounded-full flex items-center justify-center overflow-hidden border-2 border-white">
+              <Image
+                src="/SHS_Logo.png"
+                alt="Springville Boys Soccer"
+                width={40}
+                height={40}
+                className="w-8 h-8 object-contain"
+              />
             </div>
-            <div className="flex flex-col">
-              <div className="text-white font-bold text-lg underline">
-                {activePage === "team" ? "TEAM" : "SCHEDULE"}
-              </div>
-              {activeTeam && (
-                <div className="text-white text-xs font-medium">
-                  {teams?.find(team => team.id === activeTeam)?.name || ""}
-                </div>
-              )}
-            </div>
-          </div>
+          </Link>
 
           {/* Team Selector Pills */}
           {teams && teams.length > 0 && (

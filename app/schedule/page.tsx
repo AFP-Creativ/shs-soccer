@@ -1,7 +1,6 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { ScrollArea } from "@/components/ui/scroll-area"
 import { scheduleData } from "@/lib/data"
 import { PageContainer } from "@/components/PageContainer"
 import { Header } from "@/components/Header"
@@ -21,7 +20,7 @@ export default function SchedulePage({
   const [activeTeam, setActiveTeam] = useState(defaultTeam);
   
   // Use the scroll header hook to determine when to show the minimal header
-  const showMinimalHeader = useScrollHeader(150);
+  const showMinimalHeader = useScrollHeader(100);
   
   // Update active team when URL parameter changes
   useEffect(() => {
@@ -64,14 +63,14 @@ export default function SchedulePage({
         useLinks={true}
       />
 
-      {/* Schedule Content */}
-      <ScrollArea className="w-full h-[calc(100vh-250px)] px-4">
+      {/* Schedule Content - Now using regular div instead of ScrollArea */}
+      <div className="w-full px-4 pb-20">
         <div className="w-full max-w-xs mx-auto space-y-3 py-4">
           {currentScheduleData.map((game, index) => (
             <GameCard key={index} game={game} />
           ))}
         </div>
-      </ScrollArea>
+      </div>
     </PageContainer>
   )
 }
