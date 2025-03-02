@@ -34,7 +34,7 @@ export default function Home() {
               variant="outline"
               className="w-full h-16 text-xl font-bold text-white border-2 border-[#ab2328] bg-black/50 hover:bg-[#ab2328]/50"
             >
-              TEAM
+              TEAM ROSTERS
             </Button>
           </Link>
           <div className="flex w-full mt-2 gap-2">
@@ -71,7 +71,7 @@ export default function Home() {
               variant="outline"
               className="w-full h-16 text-xl font-bold text-white border-2 border-[#ab2328] bg-black/50 hover:bg-[#ab2328]/50"
             >
-              SCHEDULE
+              TEAM SCHEDULES
             </Button>
           </Link>
           <div className="flex w-full mt-2 gap-2">
@@ -94,6 +94,7 @@ export default function Home() {
           </div>
         </div>
 
+        {/* NEWS button hidden temporarily - will be used later
         <Link href="/news" className="w-full">
           <Button
             variant="outline"
@@ -102,6 +103,7 @@ export default function Home() {
             NEWS
           </Button>
         </Link>
+        */}
       </div>
 
       <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-6">
