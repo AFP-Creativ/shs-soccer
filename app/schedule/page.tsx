@@ -15,8 +15,8 @@ export default function SchedulePage({
 }: {
   searchParams: { team?: string };
 }) {
-  // Set default tab based on URL parameter or default to "varsityJv"
-  const defaultTeam = searchParams.team || "varsityJv";
+  // Set default tab based on URL parameter or default to "varsity"
+  const defaultTeam = searchParams.team || "varsity";
   const [activeTeam, setActiveTeam] = useState(defaultTeam);
   
   // Use the scroll header hook to determine when to show the minimal header
@@ -28,13 +28,11 @@ export default function SchedulePage({
   }, [defaultTeam]);
   
   // Get the current schedule data based on the active team
-  const currentScheduleData = 
-    activeTeam === "varsityJv" 
-      ? scheduleData.varsityJv 
-      : scheduleData.froshSoph;
+  const currentScheduleData = scheduleData[activeTeam as keyof typeof scheduleData];
   
   const teams = [
-    { id: "varsityJv", name: "Varsity/JV" },
+    { id: "varsity", name: "Varsity" },
+    { id: "jv", name: "JV" },
     { id: "froshSoph", name: "Fresh/Soph" }
   ];
 

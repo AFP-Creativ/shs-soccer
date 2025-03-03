@@ -25,7 +25,8 @@ export type Game = {
 }
 
 export type ScheduleData = {
-  varsityJv: Game[];
+  varsity: Game[];
+  jv: Game[];
   froshSoph: Game[];
 }
 
@@ -452,9 +453,9 @@ export const playerData: Roster = {
   ]
 };
 
-// Updated schedule data with separate schedules for Varsity/JV and Fresh/Soph
+// Updated schedule data with separate schedules for Varsity, JV, and Fresh/Soph
 export const scheduleData: ScheduleData = {
-  varsityJv: [
+  varsity: [
     {
       opponent: "Payson",
       date: "March 4, 2025",
@@ -462,6 +463,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Mountain View",
@@ -470,6 +472,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Snow Canyon",
@@ -478,6 +481,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Cyprus",
@@ -486,6 +490,7 @@ export const scheduleData: ScheduleData = {
       location: "Cyprus High School",
       isHome: false,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Maple Mountain",
@@ -494,6 +499,7 @@ export const scheduleData: ScheduleData = {
       location: "Maple Mountain High School",
       isHome: false,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Timpanogos",
@@ -502,6 +508,7 @@ export const scheduleData: ScheduleData = {
       location: "Timpanogos High School",
       isHome: false,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Timpview",
@@ -510,6 +517,7 @@ export const scheduleData: ScheduleData = {
       location: "Timpview High School",
       isHome: false,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Salem Hills",
@@ -518,6 +526,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Wasatch",
@@ -526,6 +535,7 @@ export const scheduleData: ScheduleData = {
       location: "Wasatch High School",
       isHome: false,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Spanish Fork",
@@ -534,6 +544,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Cedar Valley",
@@ -542,6 +553,7 @@ export const scheduleData: ScheduleData = {
       location: "Cedar Valley High School",
       isHome: false,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Maple Mountain",
@@ -550,6 +562,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "BYE",
@@ -558,6 +571,7 @@ export const scheduleData: ScheduleData = {
       location: "N/A",
       isHome: true,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Timpview",
@@ -566,6 +580,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Salem Hills",
@@ -574,6 +589,7 @@ export const scheduleData: ScheduleData = {
       location: "Salem Hills High School",
       isHome: false,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Wasatch",
@@ -582,6 +598,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Spanish Fork",
@@ -590,6 +607,7 @@ export const scheduleData: ScheduleData = {
       location: "Spanish Fork High School",
       isHome: false,
       status: "Upcoming",
+      team: "varsity"
     },
     {
       opponent: "Cedar Valley",
@@ -598,6 +616,171 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "varsity"
+    },
+  ],
+  jv: [
+    {
+      opponent: "Payson",
+      date: "March 4, 2025",
+      time: "5:00 PM",
+      location: "Red Devil Field",
+      isHome: true,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Mountain View",
+      date: "March 6, 2025",
+      time: "5:00 PM",
+      location: "Red Devil Field",
+      isHome: true,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Snow Canyon",
+      date: "March 8, 2025",
+      time: "5:00 PM",
+      location: "Red Devil Field",
+      isHome: true,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Cyprus",
+      date: "March 11, 2025",
+      time: "5:00 PM",
+      location: "Cyprus High School",
+      isHome: false,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Maple Mountain",
+      date: "March 13, 2025",
+      time: "5:00 PM",
+      location: "Maple Mountain High School",
+      isHome: false,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Timpanogos",
+      date: "March 18, 2025",
+      time: "5:00 PM",
+      location: "Timpanogos High School",
+      isHome: false,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Timpview",
+      date: "March 20, 2025",
+      time: "5:00 PM",
+      location: "Timpview High School",
+      isHome: false,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Salem Hills",
+      date: "March 25, 2025",
+      time: "5:00 PM",
+      location: "Red Devil Field",
+      isHome: true,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Wasatch",
+      date: "March 27, 2025",
+      time: "5:00 PM",
+      location: "Wasatch High School",
+      isHome: false,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Spanish Fork",
+      date: "April 8, 2025",
+      time: "5:00 PM",
+      location: "Red Devil Field",
+      isHome: true,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Cedar Valley",
+      date: "April 10, 2025",
+      time: "5:00 PM",
+      location: "Cedar Valley High School",
+      isHome: false,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Maple Mountain",
+      date: "April 15, 2025",
+      time: "5:00 PM",
+      location: "Red Devil Field",
+      isHome: true,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "BYE",
+      date: "April 17, 2025",
+      time: "N/A",
+      location: "N/A",
+      isHome: true,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Timpview",
+      date: "April 22, 2025",
+      time: "5:00 PM",
+      location: "Red Devil Field",
+      isHome: true,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Salem Hills",
+      date: "April 24, 2025",
+      time: "5:00 PM",
+      location: "Salem Hills High School",
+      isHome: false,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Wasatch",
+      date: "April 29, 2025",
+      time: "5:00 PM",
+      location: "Red Devil Field",
+      isHome: true,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Spanish Fork",
+      date: "May 1, 2025",
+      time: "5:00 PM",
+      location: "Spanish Fork High School",
+      isHome: false,
+      status: "Upcoming",
+      team: "jv"
+    },
+    {
+      opponent: "Cedar Valley",
+      date: "May 6, 2025",
+      time: "5:00 PM",
+      location: "Red Devil Field",
+      isHome: true,
+      status: "Upcoming",
+      team: "jv"
     },
   ],
   froshSoph: [
@@ -608,6 +791,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "froshSoph"
     },
     {
       opponent: "Timpview",
@@ -616,6 +800,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "froshSoph"
     },
     {
       opponent: "Salem Hills",
@@ -624,6 +809,7 @@ export const scheduleData: ScheduleData = {
       location: "Salem Hills High School",
       isHome: false,
       status: "Upcoming",
+      team: "froshSoph"
     },
     {
       opponent: "Wasatch",
@@ -632,6 +818,7 @@ export const scheduleData: ScheduleData = {
       location: "Wasatch High School",
       isHome: false,
       status: "Upcoming",
+      team: "froshSoph"
     },
     {
       opponent: "Spanish Fork",
@@ -640,6 +827,7 @@ export const scheduleData: ScheduleData = {
       location: "Spanish Fork High School",
       isHome: false,
       status: "Upcoming",
+      team: "froshSoph"
     },
     {
       opponent: "Cedar Valley",
@@ -648,6 +836,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "froshSoph"
     },
     {
       opponent: "Maple Mountain",
@@ -656,6 +845,7 @@ export const scheduleData: ScheduleData = {
       location: "Maple Mountain High School",
       isHome: false,
       status: "Upcoming",
+      team: "froshSoph"
     },
     {
       opponent: "Timpview",
@@ -664,6 +854,7 @@ export const scheduleData: ScheduleData = {
       location: "Timpview High School",
       isHome: false,
       status: "Upcoming",
+      team: "froshSoph"
     },
     {
       opponent: "Salem Hills",
@@ -672,6 +863,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "froshSoph"
     },
     {
       opponent: "Wasatch",
@@ -680,6 +872,7 @@ export const scheduleData: ScheduleData = {
       location: "Red Devil Field",
       isHome: true,
       status: "Upcoming",
+      team: "froshSoph"
     },
     {
       opponent: "Spanish Fork",
@@ -688,6 +881,7 @@ export const scheduleData: ScheduleData = {
       location: "Spanish Fork High School",
       isHome: false,
       status: "Upcoming",
+      team: "froshSoph"
     },
     {
       opponent: "Cedar Valley",
@@ -696,6 +890,7 @@ export const scheduleData: ScheduleData = {
       location: "Cedar Valley High School",
       isHome: false,
       status: "Upcoming",
+      team: "froshSoph"
     },
   ]
 };
