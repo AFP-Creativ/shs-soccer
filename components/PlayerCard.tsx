@@ -21,7 +21,7 @@ export function PlayerCard({ player }: PlayerCardProps) {
             src={player.image || "/SHS_Logo_Profile.png"}
             alt={player.name}
             fill
-            className="object-cover object-top scale-[.9]"
+            className="object-cover object-top scale-[1.0]"
           />
         </div>
         
