@@ -12,7 +12,12 @@ const robotoSlab = Roboto_Slab({
 export const metadata: Metadata = {
   title: "Springville Boys Soccer",
   description: "Official app for Springville High School Boys Soccer Team",
-    generator: 'v0.dev'
+  generator: 'v0.dev',
+  icons: {
+    icon: '/SHS_Logo_Favicon.png',
+    shortcut: '/SHS_Logo_Favicon.png',
+    apple: '/SHS_Logo_Favicon.png',
+  }
 }
 
 export default function RootLayout({
