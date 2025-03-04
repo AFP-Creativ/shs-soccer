@@ -34,136 +34,136 @@ export type ScheduleData = {
 export const playerData: Roster = {
   varsity: [
     {
-      number: "1",
-      name: "ADAM BRADSHAW",
+      number: "00",
+      name: "BEN ORME",
       position: "GK",
-      image: "/placeholder-user.jpg",
+      image: "/Ben Orme.png",
       year: "Senior"
     },
     {
+      number: "1",
+      name: "JACK PETERSEN",
+      position: "GK",
+      image: "/Jack Petersen.png",
+      year: "Sophomore"
+    },
+    {
       number: "2",
-      name: "ANDREW WEST",
+      name: "HARPER DAILY",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/Harper Daily.png",
       year: "Senior"
     },
     {
       number: "3",
-      name: "CADE RAPIER",
-      position: "D",
-      image: "/placeholder-user.jpg",
-      year: "Junior"
-    },
-    {
-      number: "4",
       name: "CARTER BARTHOLOMEW",
-      position: "M",
-      image: "/placeholder-user.jpg",
-      year: "Senior"
-    },
-    {
-      number: "5",
-      name: "GEO TIENDA",
-      position: "M",
-      image: "/placeholder-user.jpg",
-      year: "Junior"
+      position: "F",
+      image: "/Carter Bartholomew.png",
+      year: "Sophomore"
     },
     {
       number: "6",
-      name: "HARPER DAILY",
+      name: "ADAM BRADSHAW",
       position: "D",
-      image: "/placeholder-user.jpg",
-      year: "Senior"
+      image: "/Adam Bradshaw.png",
+      year: "Junior"
     },
     {
       number: "7",
-      name: "ISAAC HOPKINS",
-      position: "F",
-      image: "/placeholder-user.jpg",
-      year: "Senior"
-    },
-    {
-      number: "8",
-      name: "JEFFREY PRICE",
-      position: "M",
-      image: "/placeholder-user.jpg",
+      name: "YAHIR CARRASCO",
+      position: "D",
+      image: "/Yahir Carrasco.png",
       year: "Junior"
-    },
-    {
-      number: "9",
-      name: "JONATHON ZAFRA",
-      position: "F",
-      image: "/placeholder-user.jpg",
-      year: "Senior"
-    },
-    {
-      number: "10",
-      name: "KEVIN MARIN",
-      position: "M",
-      image: "/placeholder-user.jpg",
-      year: "Senior"
     },
     {
       number: "11",
-      name: "LUKE DODD",
-      position: "F",
-      image: "/placeholder-user.jpg",
-      year: "Junior"
-    },
-    {
-      number: "12",
-      name: "MAX ROGERS",
-      position: "D",
-      image: "/placeholder-user.jpg",
-      year: "Senior"
-    },
-    {
-      number: "13",
       name: "MILO FINCH",
-      position: "M",
-      image: "/placeholder-user.jpg",
+      position: "F",
+      image: "/SHS_Logo_Profile.png",
       year: "Junior"
-    },
-    {
-      number: "14",
-      name: "NIXON RAPIER",
-      position: "D",
-      image: "/placeholder-user.jpg",
-      year: "Junior"
-    },
-    {
-      number: "15",
-      name: "RAYMON HERNANDEZ",
-      position: "M",
-      image: "/placeholder-user.jpg",
-      year: "Senior"
     },
     {
       number: "16",
-      name: "TONY QUINTERO",
+      name: "KEVIN MARIN",
       position: "F",
-      image: "/placeholder-user.jpg",
-      year: "Junior"
-    },
-    {
-      number: "17",
-      name: "YAHIR CARRASCO",
-      position: "M",
-      image: "/placeholder-user.jpg",
-      year: "Senior"
+      image: "/Kevin Marin.png",
+      year: "Freshman"
     },
     {
       number: "18",
-      name: "BEN ORME",
-      position: "D",
-      image: "/placeholder-user.jpg",
+      name: "NIXON RAPIER",
+      position: "M",
+      image: "/Nixon Rapier.png",
       year: "Senior"
     },
     {
       number: "19",
-      name: "JACK PETERSEN",
+      name: "GEO TIENDA",
       position: "F",
-      image: "/placeholder-user.jpg",
+      image: "/Geo Tienda.png",
+      year: "Senior"
+    },
+    {
+      number: "22",
+      name: "RAYMON HERNANDEZ",
+      position: "M",
+      image: "/Raymon Hernandez.png",
+      year: "Junior"
+    },
+    {
+      number: "24",
+      name: "TONY QUINTERO",
+      position: "M",
+      image: "/Tony Quintero.png",
+      year: "Junior"
+    },
+    {
+      number: "25",
+      name: "LUKE DODD",
+      position: "F",
+      image: "/Luke Dodd.png",
+      year: "Junior"
+    },
+    {
+      number: "66",
+      name: "CADE RAPIER",
+      position: "D",
+      image: "/Cade Rapier.png",
+      year: "Sophomore"
+    },
+    {
+      number: "99",
+      name: "ISAAC HOPKINS",
+      position: "M",
+      image: "/Isaac Hopkins.png",
+      year: "Junior"
+    },
+    {
+      number: "99",
+      name: "JEFFREY PRICE",
+      position: "D",
+      image: "/Jeffrey Price.png",
+      year: "Senior"
+    },
+    {
+      number: "99",
+      name: "MAX ROGERS",
+      position: "D",
+      image: "/SHS_Logo_Profile.png",
+      year: "Senior"
+    },
+    {
+      number: "99",
+      name: "ANDREW WEST",
+      position: "M",
+      image: "/Andrew West.png",
+      year: "Junior"
+    },
+    {
+      number: "99",
+      name: "JONATHON ZAFRA",
+      position: "F",
+      image: "/SHS_Logo_Profile.png",
       year: "Junior"
     }
   ],
@@ -172,126 +172,126 @@ export const playerData: Roster = {
       number: "1",
       name: "ADAM CHRISTENSEN",
       position: "GK",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Junior"
     },
     {
       number: "2",
       name: "ALEK HAJDO",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Junior"
     },
     {
       number: "3",
       name: "BEN SMITH",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "4",
       name: "BRENNAN MERRELL",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Junior"
     },
     {
       number: "5",
       name: "CHASE STRAW",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "6",
       name: "JACK DODD",
       position: "F",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Junior"
     },
     {
       number: "7",
       name: "JACK FOWLER",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "8",
       name: "JACOBY FOOTE",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Junior"
     },
     {
       number: "9",
       name: "KAI SHEFFER",
       position: "F",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "10",
       name: "KORBIN GURULE",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Junior"
     },
     {
       number: "11",
       name: "MALAKAI BODEN",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "12",
       name: "MAX ANDRADE",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Junior"
     },
     {
       number: "13",
       name: "PHOENIX MARK",
       position: "F",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "14",
       name: "TOFFER BARTHOLOMEW",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Junior"
     },
     {
       number: "15",
       name: "TREY STEVENSON",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "16",
       name: "VICTOR SANTOS",
       position: "F",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Junior"
     },
     {
       number: "17",
       name: "WILLIAM QUARENBERG",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "18",
       name: "ZAHIR PRIEGO",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Junior"
     }
   ],
@@ -300,154 +300,154 @@ export const playerData: Roster = {
       number: "1",
       name: "LOGAN ABBOTT",
       position: "GK",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Freshman"
     },
     {
       number: "2",
       name: "NOLAN BANKS",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "3",
       name: "COOPER BARTHOLOMEW",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Freshman"
     },
     {
       number: "4",
       name: "JACE BROBERG",
       position: "F",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "5",
       name: "JACKSON EARL",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Freshman"
     },
     {
       number: "6",
       name: "JENS FOLKMAN",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "7",
       name: "MAREK HAJDO",
       position: "F",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Freshman"
     },
     {
       number: "8",
       name: "GABRIEL HOERTER",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "9",
       name: "AMMON JENKINS",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Freshman"
     },
     {
       number: "10",
       name: "LOGAN JENSEN",
       position: "F",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "11",
       name: "CAMERON JUDD",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Freshman"
     },
     {
       number: "12",
       name: "ETHAN LOPEZ",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "13",
       name: "BECKHAM MORRILL",
       position: "F",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Freshman"
     },
     {
       number: "14",
       name: "BALLARD MYERS",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "15",
       name: "CARTER NILSSON",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Freshman"
     },
     {
       number: "16",
       name: "BRICK ROBERTSON",
       position: "F",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "17",
       name: "KENDRICK ROSALES",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Freshman"
     },
     {
       number: "18",
       name: "DAX ROSANDER",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "19",
       name: "JONATHAN TIENDA",
       position: "F",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Freshman"
     },
     {
       number: "20",
       name: "WYATT HART",
       position: "D",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     },
     {
       number: "21",
       name: "SAM ROSANDER",
       position: "M",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Freshman"
     },
     {
       number: "22",
       name: "CONNOR WHITNEY",
       position: "GK",
-      image: "/placeholder-user.jpg",
+      image: "/SHS_Logo_Profile.png",
       year: "Sophomore"
     }
   ]

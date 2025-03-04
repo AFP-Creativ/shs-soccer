@@ -16,17 +16,13 @@ export function PlayerCard({ player }: PlayerCardProps) {
         </div>
         
         {/* Player Image */}
-        <div className="relative w-16 h-16 rounded-full overflow-hidden bg-gray-800 flex-shrink-0">
-          {player.image ? (
-            <Image
-              src={player.image}
-              alt={player.name}
-              fill
-              className="object-cover"
-            />
-          ) : (
-            <div className="w-full h-full flex items-center justify-center bg-gray-700"></div>
-          )}
+        <div className="relative w-16 h-16 rounded-full overflow-hidden bg-[#ab2328] flex-shrink-0">
+          <Image
+            src={player.image || "/SHS_Logo_Profile.png"}
+            alt={player.name}
+            fill
+            className="object-cover object-top scale-[.9]"
+          />
         </div>
         
         {/* Player Name, Year and Position */}
