@@ -163,7 +163,7 @@
         number: "99",
         name: "JONATHON ZAFRA",
         position: "F",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Jonathon Zafra.png",
         year: "Junior"
       }
     ],
