@@ -462,7 +462,7 @@
         time: "7:00 PM",
         location: "Red Devil Field",
         isHome: true,
-        status: "Upcoming",
+        status: "Win 4-0",
         team: "varsity"
       },
       {
@@ -626,7 +626,7 @@
         time: "5:00 PM",
         location: "Red Devil Field",
         isHome: true,
-        status: "Upcoming",
+        status: "Win 5-0",
         team: "jv"
       },
       {
