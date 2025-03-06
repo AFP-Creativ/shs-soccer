@@ -169,126 +169,126 @@
     ],
     jv: [
       {
-        number: "1",
+        number: "29/20",
         name: "ADAM CHRISTENSEN",
-        position: "GK",
+        position: "D",
         image: "/Adam Christensen.png",
         year: "Junior"
       },
       {
-        number: "2",
+        number: "31",
         name: "ALEK HAJDO",
         position: "D",
         image: "/Alek Hajdo.png",
         year: "Junior"
       },
       {
-        number: "3",
+        number: "33",
         name: "BEN SMITH",
-        position: "D",
+        position: "M",
         image: "/Ben Smith.png",
         year: "Sophomore"
       },
       {
-        number: "4",
+        number: "5/30",
         name: "BRENNAN MERRELL",
-        position: "M",
+        position: "F",
         image: "/Brennan Merrell.png",
         year: "Junior"
       },
       {
-        number: "5",
+        number: "14",
         name: "CHASE STRAW",
         position: "M",
         image: "/Chase Straw.png",
         year: "Sophomore"
       },
       {
-        number: "6",
+        number: "27",
         name: "JACK DODD",
-        position: "F",
-        image: "/Jack Dodd.png",
-        year: "Junior"
-      },
-      {
-        number: "7",
-        name: "JACK FOWLER",
         position: "D",
-        image: "/Jack Fowler.png",
+        image: "/Jack Dodd.png",
         year: "Sophomore"
       },
       {
-        number: "8",
+        number: "13",
+        name: "JACK FOWLER",
+        position: "D",
+        image: "/Jack Fowler.png",
+        year: "Junior"
+      },
+      {
+        number: "25",
         name: "JACOBY FOOTE",
-        position: "M",
+        position: "F",
         image: "/Jacoby Foote.png",
         year: "Junior"
       },
       {
-        number: "9",
+        number: "22",
         name: "KAI SHEFFER",
         position: "F",
         image: "/Kai Sheffer.png",
         year: "Sophomore"
       },
       {
-        number: "10",
+        number: "12",
         name: "KORBIN GURULE",
-        position: "M",
+        position: "D",
         image: "/Korbin Gurule.png",
         year: "Junior"
       },
       {
-        number: "11",
+        number: "15/38",
         name: "MALAKAI BODEN",
-        position: "D",
+        position: "M",
         image: "/Malakai Bowden.png",
         year: "Sophomore"
       },
       {
-        number: "12",
+        number: "32",
         name: "MAX ANDRADE",
         position: "M",
         image: "/Max Andrade.png",
         year: "Junior"
       },
       {
-        number: "13",
+        number: "29",
         name: "PHOENIX MARK",
         position: "F",
         image: "/Phoenix Mark.png",
         year: "Sophomore"
       },
       {
-        number: "14",
+        number: "28",
         name: "TOFFER BARTHOLOMEW",
-        position: "D",
+        position: "F",
         image: "/Toffer Bartholomew.png",
         year: "Junior"
       },
       {
-        number: "15",
+        number: "23",
         name: "TREY STEVENSON",
         position: "M",
         image: "/Trey Stevenson.png",
-        year: "Sophomore"
+        year: "Junior"
       },
       {
-        number: "16",
+        number: "26",
         name: "VICTOR SANTOS",
         position: "F",
         image: "/Victor Santos.png",
         year: "Junior"
       },
       {
-        number: "17",
+        number: "21",
         name: "WILLIAM QUARENBERG",
         position: "D",
         image: "/William Quarnberg.png",
         year: "Sophomore"
       },
       {
-        number: "18",
+        number: "4",
         name: "ZAHIR PRIEGO",
         position: "M",
         image: "/Zahir Priego.png",
