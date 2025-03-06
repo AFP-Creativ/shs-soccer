@@ -34,24 +34,24 @@
   export const playerData: Roster = {
     varsity: [
       {
+        number: "6",
+        name: "ADAM BRADSHAW",
+        position: "D",
+        image: "/Adam Bradshaw.png",
+        year: "Junior"
+      },
+      {
+        number: "99",
+        name: "ANDREW WEST",
+        position: "M",
+        image: "/Andrew West.png",
+        year: "Junior"
+      },
+      {
         number: "00",
         name: "BEN ORME",
         position: "GK",
         image: "/Ben Orme.png",
-        year: "Senior"
-      },
-      {
-        number: "1",
-        name: "JACK PETERSEN",
-        position: "GK",
-        image: "/Jack Petersen.png",
-        year: "Sophomore"
-      },
-      {
-        number: "2",
-        name: "HARPER DAILY",
-        position: "D",
-        image: "/Harper Daily.png",
         year: "Senior"
       },
       {
@@ -62,24 +62,52 @@
         year: "Sophomore"
       },
       {
-        number: "6",
-        name: "ADAM BRADSHAW",
+        number: "66",
+        name: "CADE RAPIER",
         position: "D",
-        image: "/Adam Bradshaw.png",
-        year: "Junior"
+        image: "/Cade Rapier.png",
+        year: "Sophomore"
       },
       {
-        number: "7",
-        name: "YAHIR CARRASCO",
-        position: "D",
-        image: "/Yahir Carrasco.png",
-        year: "Junior"
-      },
-      {
-        number: "11",
-        name: "MILO FINCH",
+        number: "19",
+        name: "GEO TIENDA",
         position: "F",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Geo Tienda.png",
+        year: "Senior"
+      },
+      {
+        number: "2",
+        name: "HARPER DAILY",
+        position: "D",
+        image: "/Harper Daily.png",
+        year: "Senior"
+      },
+      {
+        number: "99",
+        name: "ISAAC HOPKINS",
+        position: "M",
+        image: "/Isaac Hopkins.png",
+        year: "Junior"
+      },
+      {
+        number: "1",
+        name: "JACK PETERSEN",
+        position: "GK",
+        image: "/Jack Petersen.png",
+        year: "Sophomore"
+      },
+      {
+        number: "99",
+        name: "JEFFREY PRICE",
+        position: "D",
+        image: "/Jeffrey Price.png",
+        year: "Senior"
+      },
+      {
+        number: "99",
+        name: "JONATHON ZAFRA",
+        position: "F",
+        image: "/Jonathon Zafra.png",
         year: "Junior"
       },
       {
@@ -90,17 +118,31 @@
         year: "Freshman"
       },
       {
+        number: "25",
+        name: "LUKE DODD",
+        position: "F",
+        image: "/Luke Dodd.png",
+        year: "Junior"
+      },
+      {
+        number: "99",
+        name: "MAX ROGERS",
+        position: "D",
+        image: "/Max Rogers.png",
+        year: "Senior"
+      },
+      {
+        number: "11",
+        name: "MILO FINCH",
+        position: "F",
+        image: "/SHS_Logo_Profile.png",
+        year: "Junior"
+      },
+      {
         number: "18",
         name: "NIXON RAPIER",
         position: "M",
         image: "/Nixon Rapier.png",
-        year: "Senior"
-      },
-      {
-        number: "19",
-        name: "GEO TIENDA",
-        position: "F",
-        image: "/Geo Tienda.png",
         year: "Senior"
       },
       {
@@ -118,52 +160,10 @@
         year: "Junior"
       },
       {
-        number: "25",
-        name: "LUKE DODD",
-        position: "F",
-        image: "/Luke Dodd.png",
-        year: "Junior"
-      },
-      {
-        number: "66",
-        name: "CADE RAPIER",
+        number: "7",
+        name: "YAHIR CARRASCO",
         position: "D",
-        image: "/Cade Rapier.png",
-        year: "Sophomore"
-      },
-      {
-        number: "99",
-        name: "ISAAC HOPKINS",
-        position: "M",
-        image: "/Isaac Hopkins.png",
-        year: "Junior"
-      },
-      {
-        number: "99",
-        name: "JEFFREY PRICE",
-        position: "D",
-        image: "/Jeffrey Price.png",
-        year: "Senior"
-      },
-      {
-        number: "99",
-        name: "MAX ROGERS",
-        position: "D",
-        image: "/Max Rogers.png",
-        year: "Senior"
-      },
-      {
-        number: "99",
-        name: "ANDREW WEST",
-        position: "M",
-        image: "/Andrew West.png",
-        year: "Junior"
-      },
-      {
-        number: "99",
-        name: "JONATHON ZAFRA",
-        position: "F",
-        image: "/Jonathon Zafra.png",
+        image: "/Yahir Carrasco.png",
         year: "Junior"
       }
     ],
@@ -180,6 +180,13 @@
         name: "ALEK HAJDO",
         position: "D",
         image: "/Alek Hajdo.png",
+        year: "Junior"
+      },
+      {
+        number: "12",
+        name: "MAX ANDRADE",
+        position: "M",
+        image: "/Max Andrade.png",
         year: "Junior"
       },
       {
@@ -246,13 +253,6 @@
         year: "Sophomore"
       },
       {
-        number: "12",
-        name: "MAX ANDRADE",
-        position: "M",
-        image: "/Max Andrade.png",
-        year: "Junior"
-      },
-      {
         number: "13",
         name: "PHOENIX MARK",
         position: "F",
@@ -297,35 +297,49 @@
     ],
     froshSoph: [
       {
-        number: "1",
+        number: "39",
         name: "LOGAN ABBOTT",
-        position: "GK",
+        position: "M/D",
         image: "/SHS_Logo_Profile.png",
         year: "Freshman"
       },
       {
-        number: "2",
+        number: "20",
         name: "NOLAN BANKS",
-        position: "D",
+        position: "M/W",
         image: "/SHS_Logo_Profile.png",
         year: "Sophomore"
       },
       {
-        number: "3",
+        number: "42",
+        name: "BALLARD MYERS",
+        position: "M/W",
+        image: "/SHS_Logo_Profile.png",
+        year: "Sophomore"
+      },
+      {
+        number: "15",
         name: "COOPER BARTHOLOMEW",
         position: "M",
         image: "/SHS_Logo_Profile.png",
         year: "Freshman"
       },
       {
-        number: "4",
+        number: "5",
         name: "JACE BROBERG",
-        position: "F",
+        position: "D",
         image: "/SHS_Logo_Profile.png",
         year: "Sophomore"
       },
       {
-        number: "5",
+        number: "8",
+        name: "CARTER NILSSON",
+        position: "F",
+        image: "/SHS_Logo_Profile.png",
+        year: "Freshman"
+      },
+      {
+        number: "37",
         name: "JACKSON EARL",
         position: "D",
         image: "/SHS_Logo_Profile.png",
@@ -339,112 +353,98 @@
         year: "Sophomore"
       },
       {
-        number: "7",
+        number: "41",
         name: "MAREK HAJDO",
-        position: "F",
+        position: "M",
         image: "/SHS_Logo_Profile.png",
         year: "Freshman"
       },
       {
-        number: "8",
+        number: "36",
+        name: "WYATT HART",
+        position: "GK",
+        image: "/SHS_Logo_Profile.png",
+        year: "Sophomore"
+      },
+      {
+        number: "25",
         name: "GABRIEL HOERTER",
-        position: "D",
+        position: "F/W",
         image: "/SHS_Logo_Profile.png",
         year: "Sophomore"
       },
       {
         number: "9",
         name: "AMMON JENKINS",
-        position: "M",
+        position: "F/W",
         image: "/SHS_Logo_Profile.png",
         year: "Freshman"
       },
       {
-        number: "10",
+        number: "3",
         name: "LOGAN JENSEN",
-        position: "F",
+        position: "F/W",
         image: "/SHS_Logo_Profile.png",
         year: "Sophomore"
       },
       {
-        number: "11",
+        number: "16",
         name: "CAMERON JUDD",
         position: "D",
         image: "/SHS_Logo_Profile.png",
         year: "Freshman"
       },
       {
-        number: "12",
+        number: "18",
         name: "ETHAN LOPEZ",
-        position: "M",
-        image: "/SHS_Logo_Profile.png",
-        year: "Sophomore"
-      },
-      {
-        number: "13",
-        name: "BECKHAM MORRILL",
-        position: "F",
-        image: "/SHS_Logo_Profile.png",
-        year: "Freshman"
-      },
-      {
-        number: "14",
-        name: "BALLARD MYERS",
         position: "D",
         image: "/SHS_Logo_Profile.png",
         year: "Sophomore"
       },
       {
-        number: "15",
-        name: "CARTER NILSSON",
-        position: "M",
+        number: "11",
+        name: "BECKHAM MORRILL",
+        position: "D",
         image: "/SHS_Logo_Profile.png",
         year: "Freshman"
-      },
-      {
-        number: "16",
-        name: "BRICK ROBERTSON",
-        position: "F",
-        image: "/SHS_Logo_Profile.png",
-        year: "Sophomore"
       },
       {
         number: "17",
-        name: "KENDRICK ROSALES",
-        position: "D",
-        image: "/SHS_Logo_Profile.png",
-        year: "Freshman"
-      },
-      {
-        number: "18",
-        name: "DAX ROSANDER",
-        position: "M",
+        name: "BRICK ROBERTSON",
+        position: "F/M",
         image: "/SHS_Logo_Profile.png",
         year: "Sophomore"
       },
       {
-        number: "19",
-        name: "JONATHAN TIENDA",
+        number: "24",
+        name: "KENDRICK ROSALES",
         position: "F",
         image: "/SHS_Logo_Profile.png",
         year: "Freshman"
       },
       {
-        number: "20",
-        name: "WYATT HART",
+        number: "29",
+        name: "DAX ROSANDER",
         position: "D",
         image: "/SHS_Logo_Profile.png",
         year: "Sophomore"
       },
       {
-        number: "21",
+        number: "26",
         name: "SAM ROSANDER",
-        position: "M",
+        position: "GK",
         image: "/SHS_Logo_Profile.png",
         year: "Freshman"
       },
       {
-        number: "22",
+        number: "33",
+        name: "JONATHAN TIENDA",
+        position: "F/W",
+        image: "/SHS_Logo_Profile.png",
+        year: "Freshman"
+      },
+      {
+        number: "34",
         name: "CONNOR WHITNEY",
         position: "GK",
         image: "/SHS_Logo_Profile.png",
@@ -462,7 +462,8 @@
         time: "7:00 PM",
         location: "Red Devil Field",
         isHome: true,
-        status: "Win 4-0",
+        status: "Win",
+        score: "4-0",
         team: "varsity"
       },
       {
@@ -626,7 +627,8 @@
         time: "5:00 PM",
         location: "Red Devil Field",
         isHome: true,
-        status: "Win 5-0",
+        status: "Win",
+        score: "5-0",
         team: "jv"
       },
       {
