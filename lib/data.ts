@@ -41,7 +41,7 @@
         year: "Junior"
       },
       {
-        number: "99",
+        number: "10",
         name: "ANDREW WEST",
         position: "M",
         image: "/Andrew West.png",
@@ -83,7 +83,7 @@
         year: "Senior"
       },
       {
-        number: "99",
+        number: "11",
         name: "ISAAC HOPKINS",
         position: "M",
         image: "/Isaac Hopkins.png",
@@ -97,14 +97,14 @@
         year: "Sophomore"
       },
       {
-        number: "99",
+        number: "17",
         name: "JEFFREY PRICE",
         position: "D",
         image: "/Jeffrey Price.png",
         year: "Senior"
       },
       {
-        number: "99",
+        number: "14",
         name: "JONATHON ZAFRA",
         position: "F",
         image: "/Jonathon Zafra.png",
@@ -125,7 +125,7 @@
         year: "Junior"
       },
       {
-        number: "99",
+        number: "30",
         name: "MAX ROGERS",
         position: "D",
         image: "/Max Rogers.png",
