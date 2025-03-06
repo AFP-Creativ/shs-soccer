@@ -7,12 +7,17 @@ type PlayerCardProps = {
 }
 
 export function PlayerCard({ player }: PlayerCardProps) {
+  // Check if the player number contains a slash (indicating two numbers)
+  const hasTwoNumbers = player.number.includes('/')
+
   return (
     <Card className="p-3 rounded-lg bg-[#ab2328] text-white border-b-2 border-black">
       <div className="grid grid-cols-[60px_64px_1fr] items-center h-16">
         {/* Player Number - Prominent on left */}
-        <div className="flex items-center justify-center text-4xl font-bold text-white">
-          {player.number}
+        <div className="flex items-center justify-center font-bold text-white">
+          <span className={`${hasTwoNumbers ? 'text-2xl' : 'text-4xl'}`}>
+            {player.number}
+          </span>
         </div>
         
         {/* Player Image */}
