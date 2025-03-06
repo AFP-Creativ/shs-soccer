@@ -55,17 +55,17 @@
         year: "Senior"
       },
       {
-        number: "3",
-        name: "CARTER BARTHOLOMEW",
-        position: "F",
-        image: "/Carter Bartholomew.png",
-        year: "Sophomore"
-      },
-      {
         number: "66",
         name: "CADE RAPIER",
         position: "D",
         image: "/Cade Rapier.png",
+        year: "Sophomore"
+      },
+      {
+        number: "3",
+        name: "CARTER BARTHOLOMEW",
+        position: "F",
+        image: "/Carter Bartholomew.png",
         year: "Sophomore"
       },
       {
@@ -183,13 +183,6 @@
         year: "Junior"
       },
       {
-        number: "12",
-        name: "MAX ANDRADE",
-        position: "M",
-        image: "/Max Andrade.png",
-        year: "Junior"
-      },
-      {
         number: "3",
         name: "BEN SMITH",
         position: "D",
@@ -253,6 +246,13 @@
         year: "Sophomore"
       },
       {
+        number: "12",
+        name: "MAX ANDRADE",
+        position: "M",
+        image: "/Max Andrade.png",
+        year: "Junior"
+      },
+      {
         number: "13",
         name: "PHOENIX MARK",
         position: "F",
@@ -297,83 +297,6 @@
     ],
     froshSoph: [
       {
-        number: "39",
-        name: "LOGAN ABBOTT",
-        position: "M/D",
-        image: "/SHS_Logo_Profile.png",
-        year: "Freshman"
-      },
-      {
-        number: "20",
-        name: "NOLAN BANKS",
-        position: "M/W",
-        image: "/SHS_Logo_Profile.png",
-        year: "Sophomore"
-      },
-      {
-        number: "42",
-        name: "BALLARD MYERS",
-        position: "M/W",
-        image: "/SHS_Logo_Profile.png",
-        year: "Sophomore"
-      },
-      {
-        number: "15",
-        name: "COOPER BARTHOLOMEW",
-        position: "M",
-        image: "/SHS_Logo_Profile.png",
-        year: "Freshman"
-      },
-      {
-        number: "5",
-        name: "JACE BROBERG",
-        position: "D",
-        image: "/SHS_Logo_Profile.png",
-        year: "Sophomore"
-      },
-      {
-        number: "8",
-        name: "CARTER NILSSON",
-        position: "F",
-        image: "/SHS_Logo_Profile.png",
-        year: "Freshman"
-      },
-      {
-        number: "37",
-        name: "JACKSON EARL",
-        position: "D",
-        image: "/SHS_Logo_Profile.png",
-        year: "Freshman"
-      },
-      {
-        number: "6",
-        name: "JENS FOLKMAN",
-        position: "M",
-        image: "/SHS_Logo_Profile.png",
-        year: "Sophomore"
-      },
-      {
-        number: "41",
-        name: "MAREK HAJDO",
-        position: "M",
-        image: "/SHS_Logo_Profile.png",
-        year: "Freshman"
-      },
-      {
-        number: "36",
-        name: "WYATT HART",
-        position: "GK",
-        image: "/SHS_Logo_Profile.png",
-        year: "Sophomore"
-      },
-      {
-        number: "25",
-        name: "GABRIEL HOERTER",
-        position: "F/W",
-        image: "/SHS_Logo_Profile.png",
-        year: "Sophomore"
-      },
-      {
         number: "9",
         name: "AMMON JENKINS",
         position: "F/W",
@@ -381,23 +304,9 @@
         year: "Freshman"
       },
       {
-        number: "3",
-        name: "LOGAN JENSEN",
-        position: "F/W",
-        image: "/SHS_Logo_Profile.png",
-        year: "Sophomore"
-      },
-      {
-        number: "16",
-        name: "CAMERON JUDD",
-        position: "D",
-        image: "/SHS_Logo_Profile.png",
-        year: "Freshman"
-      },
-      {
-        number: "18",
-        name: "ETHAN LOPEZ",
-        position: "D",
+        number: "42",
+        name: "BALLARD MYERS",
+        position: "M/W",
         image: "/SHS_Logo_Profile.png",
         year: "Sophomore"
       },
@@ -416,9 +325,30 @@
         year: "Sophomore"
       },
       {
-        number: "24",
-        name: "KENDRICK ROSALES",
+        number: "6",
+        name: "CAMERON JUDD",
+        position: "D",
+        image: "/SHS_Logo_Profile.png",
+        year: "Freshman"
+      },
+      {
+        number: "8",
+        name: "CARTER NILSSON",
         position: "F",
+        image: "/SHS_Logo_Profile.png",
+        year: "Freshman"
+      },
+      {
+        number: "34",
+        name: "CONNOR WHITNEY",
+        position: "GK",
+        image: "/SHS_Logo_Profile.png",
+        year: "Sophomore"
+      },
+      {
+        number: "15",
+        name: "COOPER BARTHOLOMEW",
+        position: "M",
         image: "/SHS_Logo_Profile.png",
         year: "Freshman"
       },
@@ -430,11 +360,39 @@
         year: "Sophomore"
       },
       {
-        number: "26",
-        name: "SAM ROSANDER",
-        position: "GK",
+        number: "18",
+        name: "ETHAN LOPEZ",
+        position: "D",
+        image: "/SHS_Logo_Profile.png",
+        year: "Sophomore"
+      },
+      {
+        number: "25",
+        name: "GABRIEL HOERTER",
+        position: "F/W",
+        image: "/SHS_Logo_Profile.png",
+        year: "Sophomore"
+      },
+      {
+        number: "5",
+        name: "JACE BROBERG",
+        position: "D",
+        image: "/SHS_Logo_Profile.png",
+        year: "Sophomore"
+      },
+      {
+        number: "37",
+        name: "JACKSON EARL",
+        position: "D",
         image: "/SHS_Logo_Profile.png",
         year: "Freshman"
+      },
+      {
+        number: "6",
+        name: "JENS FOLKMAN",
+        position: "M",
+        image: "/SHS_Logo_Profile.png",
+        year: "Sophomore"
       },
       {
         number: "33",
@@ -444,8 +402,50 @@
         year: "Freshman"
       },
       {
-        number: "34",
-        name: "CONNOR WHITNEY",
+        number: "24",
+        name: "KENDRICK ROSALES",
+        position: "F",
+        image: "/SHS_Logo_Profile.png",
+        year: "Freshman"
+      },
+      {
+        number: "39",
+        name: "LOGAN ABBOTT",
+        position: "M/D",
+        image: "/SHS_Logo_Profile.png",
+        year: "Freshman"
+      },
+      {
+        number: "3",
+        name: "LOGAN JENSEN",
+        position: "F/W",
+        image: "/SHS_Logo_Profile.png",
+        year: "Sophomore"
+      },
+      {
+        number: "41",
+        name: "MAREK HAJDO",
+        position: "M",
+        image: "/SHS_Logo_Profile.png",
+        year: "Freshman"
+      },
+      {
+        number: "20",
+        name: "NOLAN BANKS",
+        position: "M/W",
+        image: "/SHS_Logo_Profile.png",
+        year: "Sophomore"
+      },
+      {
+        number: "26",
+        name: "SAM ROSANDER",
+        position: "GK",
+        image: "/SHS_Logo_Profile.png",
+        year: "Freshman"
+      },
+      {
+        number: "36",
+        name: "WYATT HART",
         position: "GK",
         image: "/SHS_Logo_Profile.png",
         year: "Sophomore"
