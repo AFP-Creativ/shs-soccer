@@ -473,7 +473,7 @@
         location: "Red Devil Field",
         isHome: true,
         status: "Loss",
-        // score: "0-1",
+        score: "0-3",
         team: "varsity"
       },
       {
@@ -492,7 +492,7 @@
         location: "Cyprus High School",
         isHome: false,
         status: "Loss",
-        // score: "0-1",
+        score: "3-4",
         team: "varsity"
       },
       {
