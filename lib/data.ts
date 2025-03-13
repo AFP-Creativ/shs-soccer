@@ -300,84 +300,84 @@
         number: "9",
         name: "AMMON JENKINS",
         position: "F/W",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Ammon Jenkins.png",
         year: "Freshman"
       },
       {
         number: "42",
         name: "BALLARD MYERS",
         position: "M/W",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Ballard Myers.png",
         year: "Sophomore"
       },
       {
         number: "11",
         name: "BECKHAM MORRILL",
         position: "D",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Beckham Morrill.png",
         year: "Freshman"
       },
       {
         number: "17",
         name: "BRICK ROBERTSON",
         position: "F/M",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Brick Robertson.png",
         year: "Sophomore"
       },
       {
         number: "6",
         name: "CAMERON JUDD",
         position: "D",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Cameron Judd.png",
         year: "Freshman"
       },
       {
         number: "8",
         name: "CARTER NILSSON",
         position: "F",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Carter Nilsson.png",
         year: "Freshman"
       },
       {
         number: "34",
         name: "CONNOR WHITNEY",
         position: "GK",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Connor Whitney.png",
         year: "Sophomore"
       },
       {
         number: "15",
         name: "COOPER BARTHOLOMEW",
         position: "M",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Cooper Bartholomew.png",
         year: "Freshman"
       },
       {
         number: "29",
         name: "DAX ROSANDER",
         position: "D",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Dax Rosander.png",
         year: "Sophomore"
       },
       {
         number: "18",
         name: "ETHAN LOPEZ",
         position: "D",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Ethan Lopez.png",
         year: "Sophomore"
       },
       {
         number: "25",
         name: "GABRIEL HOERTER",
         position: "F/W",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Gabriel Hoerter.png",
         year: "Sophomore"
       },
       {
         number: "5",
         name: "JACE BROBERG",
         position: "D",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Jace Broberg.png",
         year: "Sophomore"
       },
       {
@@ -391,21 +391,21 @@
         number: "6",
         name: "JENS FOLKMAN",
         position: "M",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Jens Folkman.png",
         year: "Sophomore"
       },
       {
         number: "33",
         name: "JONATHAN TIENDA",
         position: "F/W",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Jonathan Tienda.png",
         year: "Freshman"
       },
       {
         number: "24",
         name: "KENDRICK ROSALES",
         position: "F",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Kendrick Rosales.png",
         year: "Freshman"
       },
       {
@@ -419,35 +419,35 @@
         number: "3",
         name: "LOGAN JENSEN",
         position: "F/W",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Logan Jensen.png",
         year: "Sophomore"
       },
       {
         number: "41",
         name: "MAREK HAJDO",
         position: "M",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Marek Hajdo.png",
         year: "Freshman"
       },
       {
         number: "20",
         name: "NOLAN BANKS",
         position: "M/W",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Nolan Banks.png",
         year: "Sophomore"
       },
       {
         number: "26",
         name: "SAM ROSANDER",
         position: "GK",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Sam Rosander.png",
         year: "Freshman"
       },
       {
         number: "36",
         name: "WYATT HART",
         position: "GK",
-        image: "/SHS_Logo_Profile.png",
+        image: "/Wyatt Hart.png",
         year: "Sophomore"
       }
     ]
@@ -472,16 +472,17 @@
         time: "7:00 PM",
         location: "Red Devil Field",
         isHome: true,
-        status: "Upcoming",
+        status: "Loss",
+        // score: "0-1",
         team: "varsity"
       },
       {
-        opponent: "Snow Canyon",
+        opponent: "Bear River",
         date: "March 8, 2025",
         time: "7:00 PM",
         location: "Red Devil Field",
         isHome: true,
-        status: "Upcoming",
+        status: "Canceled",
         team: "varsity"
       },
       {
@@ -490,7 +491,8 @@
         time: "7:00 PM",
         location: "Cyprus High School",
         isHome: false,
-        status: "Upcoming",
+        status: "Loss",
+        // score: "0-1",
         team: "varsity"
       },
       {
@@ -637,16 +639,17 @@
         time: "5:00 PM",
         location: "Red Devil Field",
         isHome: true,
-        status: "Upcoming",
+        status: "Win",
+        score: "2-0",
         team: "jv"
       },
       {
-        opponent: "Snow Canyon",
+        opponent: "Bear River",
         date: "March 8, 2025",
         time: "5:00 PM",
         location: "Red Devil Field",
         isHome: true,
-        status: "Upcoming",
+        status: "Canceled",
         team: "jv"
       },
       {
@@ -655,7 +658,8 @@
         time: "5:00 PM",
         location: "Cyprus High School",
         isHome: false,
-        status: "Upcoming",
+        status: "Win",
+        score: "5-1",
         team: "jv"
       },
       {
