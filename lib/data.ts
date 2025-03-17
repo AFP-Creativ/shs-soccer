@@ -19,7 +19,7 @@
     time: string;
     location: string;
     isHome: boolean;
-    status: "Win" | "Loss" | "Tie" | "Upcoming" | "Canceled";
+    status: "Win" | "Loss" | "Draw" | "Upcoming" | "Canceled";
     score?: string;
     team?: "varsity" | "jv" | "froshSoph";
   }
@@ -668,7 +668,8 @@
         time: "5:00 PM",
         location: "Maple Mountain High School",
         isHome: false,
-        status: "Upcoming",
+        status: "Draw",
+        score: "0-0",
         team: "jv"
       },
       {
