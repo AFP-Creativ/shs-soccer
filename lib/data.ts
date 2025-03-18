@@ -507,7 +507,7 @@
       {
         opponent: "Timpanogos",
         date: "March 18, 2025",
-        time: "7:00 PM",
+        time: "3:30 PM",
         location: "Timpanogos High School",
         isHome: false,
         status: "Upcoming",
@@ -797,6 +797,15 @@
         time: "4:00 PM",
         location: "Red Devil Field",
         isHome: true,
+        status: "Upcoming",
+        team: "froshSoph"
+      },
+      {
+        opponent: "Timpanogos",
+        date: "March 18, 2025",
+        time: "3:30 PM",
+        location: "Timpanogos High School",
+        isHome: false,
         status: "Upcoming",
         team: "froshSoph"
       },
