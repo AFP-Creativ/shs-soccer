@@ -510,7 +510,7 @@
         time: "3:30 PM",
         location: "Timpanogos High School",
         isHome: false,
-        status: "Upcoming",
+        status: "Canceled",
         team: "varsity"
       },
       {
@@ -678,7 +678,7 @@
         time: "5:00 PM",
         location: "Timpanogos High School",
         isHome: false,
-        status: "Upcoming",
+        status: "Canceled",
         team: "jv"
       },
       {
@@ -806,7 +806,7 @@
         time: "3:30 PM",
         location: "Timpanogos High School",
         isHome: false,
-        status: "Upcoming",
+        status: "Canceled",
         team: "froshSoph"
       },
       {
